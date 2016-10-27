@@ -1,9 +1,6 @@
 # tomato-timer
 a configurable tomato (pomodoro) timer shell script with logging
-
-## NB
-it's broken right now...
-
+j
 ## usage
 call the function with `./tomato-timer.sh`. by default, it sets the timer to 25 minutes and beeps when it finishes. it prints a message about the remaining time according the `$message_rate` variable. when the timer finishes, it beeps and starts a break timer. after finishing (by default) four tomato timers, it starts a longer break. all of these variables are configurable by setting their values at the top of the shell script file.
 
