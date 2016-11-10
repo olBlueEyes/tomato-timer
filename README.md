@@ -5,13 +5,15 @@ a simple pomodor timer
 ## usage
 usage is pretty simple: `./tomato_timer.sh`. I alias this to `tt` for convenience. whenever I want to use it, I open a shell on a different desktop and simply start the timer.
 
+make sure to open the script and set the directory for the log file. it defaults to `$HOME/tomato.log`
+
 here's what you'll get if you type `./tomato_timer.sh -h`:
 ~~~~~~~
 ./tomato_timer.sh [help|log|MINUTES]
-    help        Prints this little help message and exits
-    log         Print the log info for the last day and exits
-    version     Prints the version information and exits
-    MINUTES     Sets the number of minutes you want to run the timer for;
+    help        prints this little help message and exits
+    log         print the log info for the last day and exits
+    version     prints the version information and exits
+    MINUTES     sets the number of minutes to run the timer for;
                 the default is 25 minutes (if omitted)
 ~~~~~~~
 
