@@ -3,7 +3,17 @@
 a simple pomodor timer
 
 ## usage
-usage is pretty simple: `./tomato_timer.sh`.
+usage is pretty simple: `./tomato_timer.sh`. I alias this to `tt` for convenience. whenever I want to use it, I open a shell on a different desktop and simply start the timer.
+
+here's what you'll get if you type `./tomato_timer.sh -h`:
+~~~~~~~
+./tomato_timer.sh [help|log|MINUTES]
+    help        Prints this little help message and exits
+    log         Print the log info for the last day and exits
+    version     Prints the version information and exits
+    MINUTES     Sets the number of minutes you want to run the timer for;
+                the default is 25 minutes (if omitted)
+~~~~~~~
 
 ## notes
 this function depends on the usage of Johnathan Nightingale's [beep](https://github.com/johnath/beep) (available, at least, in the Arch Linux repositories), which is an awesome little program to make all sorts of fancy beeping sounds. because of kernel security design, this requires sudo privileges, which means this script won't work if it's not set with NOPASSWD in the `sudoers` file. visit `beep`'s github page for some options to work around this.
