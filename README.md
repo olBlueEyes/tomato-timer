@@ -1,6 +1,6 @@
 # tomato-timer
 
-a simple pomodor timer
+a simple pomodoro timer
 
 ## usage
 usage is pretty simple: `./tomato_timer.sh`. I alias this to `tt` for convenience. whenever I want to use it, I open a shell on a different desktop and simply start the timer.
