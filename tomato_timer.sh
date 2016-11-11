@@ -86,7 +86,6 @@ fi
 # --------------------------------- #
 echo "$(($work_time/60)) minutes starts now"
 echo "ETC is $(date -d ${work_time}sec +%R)"
-exit
 begin=$(date +%s) # set the start time (UNIX time)
 countdown=$work_time
 while (($countdown > 0)) # the timer while loop
